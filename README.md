@@ -4,11 +4,12 @@ Git Repo with code and Dataset of the paper "On the limitations of Stable Diffus
 ## Work in progress...
 
 ## Dataset
+%insert images
 The real dataset used in this project is the FFHQ dataset, available on kaggle at https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq.
 The fake generated dataset is available at the drive folder: https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA; however new and different images can be generated using the code "main.py"..
 The stylegan dataset is available at:
-The stylegan2 dataset is available on Kaggle at:
-The stylegan3 dataset is available at:
+The stylegan2 dataset is available on Kaggle at: https://www.kaggle.com/datasets/bwandowando/all-these-people-dont-exist
+The stylegan3 dataset is available at: https://nvlabs-fi-cdn.nvidia.com/stylegan3/images/
 
 ## Data preprocessing
 In order to balance the real and fake datasets, we tried to remove all the children in the real dataset (because there are no children in the fake one) using the code available at https://www.thepythoncode.com/article/predict-age-using-opencv/.
