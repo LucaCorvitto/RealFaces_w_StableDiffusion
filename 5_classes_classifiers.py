@@ -243,7 +243,7 @@ def main():
 
             best_acc = 0.0
 
-            create_dir(model_name)# + '_' + t_type + '_' + compression_type) # create just one folder for each model
+            create_dir(f'5_classes_results/{model_name}')# + '_' + t_type + '_' + compression_type) # create just one folder for each model
             # Initialize the model for this run
             model_ft, input_size = initialize_model(model_name, num_classes)
 
