@@ -6,6 +6,8 @@ Git Repo with code and Dataset of the paper "On the limitations of Stable Diffus
 ## Dataset
 %insert images
 
+%insert folder for real dataset and check the file "split_real_dataset.py"
+
 The real dataset used in this project is the FFHQ dataset, available on kaggle at https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq.
 
 The fake generated dataset is available at the drive folder: https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA; however new and different images can be generated using the code "main.py".
