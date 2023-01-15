@@ -3,6 +3,16 @@ Git Repo with code and Dataset of the paper "On the limitations of Stable Diffus
 
 ## Work in progress...
 
+## How to run the code
+
+### Fake Images Generation
+To generate the images we used Stable Diffusion v1.5 available at HuggingFace. In order to use it, you have to send a request and accept the terms of service. Done this you will receive a token that, in the code "main.py", must be inserted in the variable "YOUR_TOKEN", row 22, in the place of 'your_Stable_Diffusion_token'.
+
+### Classifiers codes and Datasets
+The fake dataset must be downloaded from the link stated below, extracted and put in the datasets/png_images/train, datasets/png_images/eval and datasets/png_images/test folder naming the subfolders "fake".
+The real dataset must be split, running the "split_real_dataset.py" file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link tated below, and then moved in the datasets folder, naming the subfolder containing all the images "archive").
+To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path "datasets/gan", "datasets/gan2" and "datasets/gan3" and run the "split_5classes_dataset.py" file.
+
 ## Dataset
 %insert images
 
