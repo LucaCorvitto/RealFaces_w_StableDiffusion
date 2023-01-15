@@ -87,6 +87,7 @@ def main():
     model_names = ['vit', 'vgg16', 'mobilenet', 'xception', 'resnet']
     # Batch size for training (change depending on how much memory you have)
     batch_size = 32
+    create_dir('datasets/cross_validation')
 
     # resize images
     transform_type = ['resize_only', 'center_crop', 'random_crop', 'random_resized_crop']
