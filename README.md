@@ -22,7 +22,7 @@ The real dataset used in this project is the FFHQ dataset, available on kaggle a
 
 The fake generated dataset is available at the drive folder: https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA; however new and different images can be generated using the code "main.py".
 
-The stylegan dataset is available at:
+The stylegan dataset is available at: https://iplab.dmi.unict.it/deepfakechallenge/#[object%20Object], or you can download it directly from here: https://iplab.dmi.unict.it/deepfakechallenge/training/1-STYLEGAN.zip;
 
 The stylegan2 dataset is available on Kaggle at: https://www.kaggle.com/datasets/bwandowando/all-these-people-dont-exist
 
