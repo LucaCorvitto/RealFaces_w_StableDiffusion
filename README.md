@@ -33,5 +33,5 @@ The stylegan2 dataset is available on Kaggle at: https://www.kaggle.com/datasets
 The stylegan3 dataset is available at: https://nvlabs-fi-cdn.nvidia.com/stylegan3/images/
 
 ## Data preprocessing
-In order to balance the real and fake datasets, we tried to remove all the children in the real dataset (because there are no children in the fake one) using the code available at https://www.thepythoncode.com/article/predict-age-using-opencv/.
-The "weights" folder is empty. It have to be filled by the model downloadable from the sites cited in the file "remove_children.py".
+In order to balance the real and fake datasets, we removed the children in the real dataset (because there are no children in the fake one) using the code available at https://www.thepythoncode.com/article/predict-age-using-opencv/.
+The "weights" folder is empty. It have to be filled by the model downloadable from the websites cited in the file "remove_children.py".
