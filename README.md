@@ -1,5 +1,6 @@
 # RealFaces_w_StableDiffusion
-Git Repo with code and Dataset of the paper "On the limitations of Stable Diffusion: from generation to detection of realistic images"
+Git Repo with code and Dataset of the paper "On the limitations of Stable Diffusion: from generation to detection of realistic images".
+This Repo contains the code used to generate the fake Dataset proposed in the paper and the code used for the overall analysis. The other dataset cited and linked are NOT proposed by us and the credits goes to the original creators.
 
 ## Work in progress...
 
