@@ -15,11 +15,12 @@ The fake dataset must be downloaded from the link stated [below](#dataset). It i
 * [train](./datasets/png_images/train);
 * [eval](./datasets/png_images/eval);
 * [test](./datasets/png_images/test);
+
 each one inside a subfolder named `fake`.
 
 The real dataset must be split, running the [split_real_dataset](split_real_dataset.py) file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link stated [below](#dataset), and then moved in the [datasets](datasets) folder, naming the subfolder containing all the images `archive`).
 
-To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path [datasets/gan](datasets/gan), [datasets/gan2](datasets/gan2) and [datasets/gan3](datasets/gan3) and run the [split_5classes_dataset](split_5classes_dataset.py)` file.
+To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path [gan](datasets/gan), [gan2](datasets/gan2) and [gan3](datasets/gan3) and run the [split_5classes_dataset](split_5classes_dataset.py)` file.
 
 ## Dataset
 %insert images
