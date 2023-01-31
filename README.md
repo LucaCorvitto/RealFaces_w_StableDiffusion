@@ -13,18 +13,18 @@ To generate the images we used Stable Diffusion v1.5 available at HuggingFace. I
 ### Classifiers codes and Datasets
 The fake dataset must be downloaded from the link stated [below](#dataset). It is split yet, but each zip must be extracted and put in the folders:
 * [train](./datasets/png_images/train);
-* `datasets/png_images/eval`;
-* `datasets/png_images/test`;
+* [eval](./datasets/png_images/eval);
+* [test](./datasets/png_images/test);
 each one inside a subfolder named `fake`.
 
-The real dataset must be split, running the `split_real_dataset.py` file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link stated [below](#dataset), and then moved in the `datasets` folder, naming the subfolder containing all the images `archive`).
+The real dataset must be split, running the [split_real_dataset](split_real_dataset.py) file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link stated [below](#dataset), and then moved in the [datasets](datasets) folder, naming the subfolder containing all the images `archive`).
 
-To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path `datasets/gan`, `datasets/gan2` and `datasets/gan3` and run the `split_5classes_dataset.py` file.
+To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path [datasets/gan](datasets/gan), [datasets/gan2](datasets/gan2) and [datasets/gan3](datasets/gan3) and run the [split_5classes_dataset](split_5classes_dataset.py)` file.
 
 ## Dataset
 %insert images
 
-The fake generated dataset that we propose is available at the drive folder: [Stable Diffusion fakes](https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA); however new and different images can be generated using the code `main.py`.
+The fake generated dataset that we propose is available at the drive folder: [Stable Diffusion fakes](https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA); however new and different images can be generated using the code [main](main.py).
 
 The other datasets used in this project for detetction and classification purpose were taken from external resources. They are:
 * [FFHQ dataset](https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq) composed by real faces images;
@@ -34,4 +34,4 @@ The other datasets used in this project for detetction and classification purpos
 
 ## Data preprocessing
 In order to balance the real and fake datasets, we removed the children in the real dataset (because there are no children in the fake one) using the code available [here](https://www.thepythoncode.com/article/predict-age-using-opencv/).
-The `weights` folder is empty. It have to be filled by the model downloadable from the websites cited in the file `remove_children.py`.
+The [weights](weights) folder is empty. It have to be filled by the model downloadable from the websites cited in the file [remove_children](remove_children.py).
