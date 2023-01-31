@@ -8,7 +8,7 @@ This Repo contains the code used to generate the fake Dataset proposed in the pa
 ## How to run the code
 
 ### Fake Images Generation
-To generate the images we used Stable Diffusion v1.5 available at HuggingFace. In order to use it, you have to send a request and accept the terms of service. Done this you will receive a token that, in the code "main.py", must be inserted in the variable "YOUR_TOKEN", row 22, in the place of 'your_Stable_Diffusion_token'.
+To generate the images we used Stable Diffusion v1.5 available at HuggingFace. In order to use it, you have to send a request and accept the terms of service. Done this you will receive a token that, in the code [main.py](main.py), must be inserted in the variable "YOUR_TOKEN", row 22, in the place of 'your_Stable_Diffusion_token'.
 
 ### Classifiers codes and Datasets
 The fake dataset must be downloaded from the link stated [below](#dataset). It is split yet, but each zip must be extracted and put in the folders:
