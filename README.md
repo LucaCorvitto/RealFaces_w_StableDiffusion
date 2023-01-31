@@ -4,11 +4,10 @@ Git Repo with code and Dataset of the paper **"On the use of Stable Diffusion fo
 This Repo contains the code used to generate the fake Dataset proposed in the paper and the code used for the overall analysis. The other datasets cited and linked are **NOT** proposed by us and the credits go to the original creators.
 
 ## Dataset
-%insert images
 
 The fake generated dataset that we propose is available at the drive folder: [Stable Diffusion fakes](https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA); however new and different images can be generated using the code [main.py](main.py).
 
-The other datasets used in this project for detetction and classification purpose were taken from external resources. They are:
+The other datasets used in this project for detection and classification purpose were taken from external resources. They are:
 * [FFHQ dataset](https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq) composed by real faces images;
 * [StyleGAN dataset](https://iplab.dmi.unict.it/deepfakechallenge/training/1-STYLEGAN.zip) made available for the [Deepfake challenge](https://iplab.dmi.unict.it/deepfakechallenge/#[object%20Object]);
 * [StyleGAN2 dataset](https://www.kaggle.com/datasets/bwandowando/all-these-people-dont-exist) composed by the images generated from the famous website [This Person Does Not Exist](https://thispersondoesnotexist.com/);
@@ -31,8 +30,8 @@ each one inside a subfolder named `fake`.
 The real dataset must be split, running the [split_real_dataset.py](split_real_dataset.py) file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link stated [above](#dataset), and then moved in the [datasets](datasets) folder, naming the subfolder containing all the images `archive`).
 
 #### Data preprocessing
-In order to balance the two datasets, we removed the children in the real one (because there are no children in the fake one) using the code available [here](https://www.thepythoncode.com/article/predict-age-using-opencv/).
-The [weights](weights) folder is empty. It have to be filled by the model downloadable from the websites cited in the file [remove_children.py](remove_children.py).
+In order to balance the two datasets, we removed the children in the real one (because we avoided to generate children) using the code available [here](https://www.thepythoncode.com/article/predict-age-using-opencv/).
+The [weights](weights) folder is empty. It have to be filled by the model downloadable from the websites cited in the file [remove_children.py](remove_children.py). The algorithm used it is not ours, so the credits go to the original authors.
 
 ### Multi-class classifier
 To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated [above](#dataset), then move them in the different folders:
