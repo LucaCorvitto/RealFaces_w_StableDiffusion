@@ -1,9 +1,7 @@
 # RealFaces_w_StableDiffusion
-Git Repo with code and Dataset of the paper "On the use of Stable Diffusion for creating realistic faces: from generation to detection".
+Git Repo with code and Dataset of the paper **"On the use of Stable Diffusion for creating realistic faces: from generation to detection"**.
 
-This Repo contains the code used to generate the fake Dataset proposed in the paper and the code used for the overall analysis. The other dataset cited and linked are **NOT** proposed by us and the credits go to the original creators.
-
-## Work in progress...
+This Repo contains the code used to generate the fake Dataset proposed in the paper and the code used for the overall analysis. The other datasets cited and linked are **NOT** proposed by us and the credits go to the original creators.
 
 ## Dataset
 %insert images
