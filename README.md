@@ -20,7 +20,7 @@ To run the 5_classes_classifier one has to download the StyleGAN datasets from t
 ## Dataset
 %insert images
 
-The fake generated dataset that we propose is available at the drive folder: [Stable Diffusion fakes](https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA); however new and different images can be generated using the code "main.py".
+The fake generated dataset that we propose is available at the drive folder: [Stable Diffusion fakes](https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA); however new and different images can be generated using the code `main.py`.
 
 The other datasets used in this project for detetction and classification purpose were taken from external resources. They are:
 * [FFHQ dataset](https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq) composed by real faces images;
