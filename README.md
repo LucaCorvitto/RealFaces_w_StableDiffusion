@@ -4,7 +4,7 @@ Git Repo with code and Dataset of the paper **"On the use of Stable Diffusion fo
 This Repo contains the code used to generate the fake Dataset proposed in the paper and the code used for the overall analysis. The other datasets cited and linked are **NOT** proposed by us and the credits go to the original creators.
 
 ## Dataset
-| Real          | Fake (ours)   | GAN           | GAN2          | GAN3  |
+| Real          | Stable Diffusion (ours)   | GAN           | GAN2          | GAN3  |
 | ------------- |:-------------:|:-------------:|:-------------:| -----:|
 |![alt text](https://github.com/LucaCorvitto/RealFaces_w_StableDiffusion/blob/main/readme_images/real.png)|![alt text](https://github.com/LucaCorvitto/RealFaces_w_StableDiffusion/blob/main/readme_images/fake.png)| ![alt text](https://github.com/LucaCorvitto/RealFaces_w_StableDiffusion/blob/main/readme_images/gan.png)| ![alt text](https://github.com/LucaCorvitto/RealFaces_w_StableDiffusion/blob/main/readme_images/gan2.png)| ![alt text](https://github.com/LucaCorvitto/RealFaces_w_StableDiffusion/blob/main/readme_images/gan3.png)|
 
