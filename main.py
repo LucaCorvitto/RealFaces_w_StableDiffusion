@@ -1,7 +1,7 @@
 import os
 
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "3" #change number of gpu
+#os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "3" #change number of gpu
 
 import torch
 from diffusers import DiffusionPipeline
@@ -19,7 +19,7 @@ def roundplus(x,y):
         return (x//y)+1
 
 def main():
-    YOUR_TOKEN = 'your_Stable_Diffusion_token' # insert the Stable Diffusion token, available on HuggingFace
+    #YOUR_TOKEN = 'your_Stable_Diffusion_token' # insert the Stable Diffusion token, available on HuggingFace
     num_inference_steps=50
     height=512
     width=512
@@ -30,9 +30,9 @@ def main():
     high_end_gpu = True
     batch_size = 1
     
-    print(torch.cuda.is_available())
-    print(torch.cuda.device_count())
-    print(torch.cuda.current_device())
+    #print(torch.cuda.is_available())
+    #print(torch.cuda.device_count())
+    #print(torch.cuda.current_device())
 
     with open('prompts.txt') as f:
         lines = f.readlines()
@@ -42,9 +42,9 @@ def main():
         prompts.append(i.strip())
     
     if high_end_gpu:
-        pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-2-1", use_auth_token=YOUR_TOKEN)
+        pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-2-1")#, use_auth_token=YOUR_TOKEN)
     else:
-        pipe = DiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", revision="fp16", torch_dtype=torch.float16, use_auth_token=YOUR_TOKEN)
+        pipe = DiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", revision="fp16", torch_dtype=torch.float16)#, use_auth_token=YOUR_TOKEN)
 
     pipe = pipe.to("cuda:0")
 
