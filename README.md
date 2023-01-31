@@ -12,9 +12,9 @@ To generate the images we used Stable Diffusion v1.5 available at HuggingFace. I
 
 ### Classifiers codes and Datasets
 The fake dataset must be downloaded from the link stated [below](#dataset). It is split yet, but each zip must be extracted and put in the folders:
-* [train](./datasets/png_images/train);
-* [eval](./datasets/png_images/eval);
-* [test](./datasets/png_images/test);
+* [train](./datasets/png_images/train)
+* [eval](./datasets/png_images/eval)
+* [test](./datasets/png_images/test)
 
 each one inside a subfolder named `fake`.
 
