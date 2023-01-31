@@ -20,7 +20,7 @@ The other datasets used in this project for detection and classification purpose
 ### Fake Images Generation
 To generate the images we used [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) from [HuggingFace](https://huggingface.co/). The code is ready to run, since the license of the model does not need to be explicitly accepted through the UI anymore.
 
-### Binary Classifier
+### Binary Classification
 #### Fake Dataset
 The fake dataset must be downloaded from the link stated [above](#dataset). It is split yet, but each zip must be extracted and put in the folders:
 * [train](./datasets/png_images/train)
@@ -36,7 +36,7 @@ The real dataset must be split, running the [split_real_dataset.py](split_real_d
 In order to balance the two datasets, we removed the children in the real one (because we avoided to generate children) using the code available [here](https://www.thepythoncode.com/article/predict-age-using-opencv/).
 The [weights](weights) folder is empty. It have to be filled by the model downloadable from the websites cited in the file [remove_children.py](remove_children.py). The algorithm used it is not ours, so the credits go to the original authors.
 
-### Multi-class classifier
+### Multi-class classification
 To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated [above](#dataset), then move them in the different folders:
 * [gan](datasets/gan)
 * [gan2](datasets/gan2)
