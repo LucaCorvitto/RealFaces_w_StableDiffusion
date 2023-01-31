@@ -11,11 +11,11 @@ This Repo contains the code used to generate the fake Dataset proposed in the pa
 To generate the images we used Stable Diffusion v1.5 available at HuggingFace. In order to use it, you have to send a request and accept the terms of service. Done this you will receive a token that, in the code "main.py", must be inserted in the variable "YOUR_TOKEN", row 22, in the place of 'your_Stable_Diffusion_token'.
 
 ### Classifiers codes and Datasets
-The fake dataset must be downloaded from the link stated below, extracted and put in the datasets/png_images/train, datasets/png_images/eval and datasets/png_images/test folder naming the subfolders "fake".
+The fake dataset must be downloaded from the link stated below, extracted and put in the `datasets/png_images/train`, `datasets/png_images/eval` and `datasets/png_images/test` folder naming the subfolders `fake`.
 
-The real dataset must be split, running the "split_real_dataset.py" file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link stated below, and then moved in the datasets folder, naming the subfolder containing all the images "archive").
+The real dataset must be split, running the `split_real_dataset.py` file, in order to run the classifiers codes (The FFHQ dataset must be downloaded first from the link stated below, and then moved in the datasets folder, naming the subfolder containing all the images `archive`).
 
-To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path "datasets/gan", "datasets/gan2" and "datasets/gan3" and run the "split_5classes_dataset.py" file.
+To run the 5_classes_classifier one has to download the StyleGAN datasets from the link stated below, then move them in the path `datasets/gan`, `datasets/gan2` and `datasets/gan3` and run the `split_5classes_dataset.py` file.
 
 ## Dataset
 %insert images
@@ -29,5 +29,5 @@ The other datasets used in this project for detetction and classification purpos
 * [StyleGAN3 dataset](https://nvlabs-fi-cdn.nvidia.com/stylegan3/images/) made avilable directly from NVIDIA.
 
 ## Data preprocessing
-In order to balance the real and fake datasets, we removed the children in the real dataset (because there are no children in the fake one) using the code available at https://www.thepythoncode.com/article/predict-age-using-opencv/.
-The "weights" folder is empty. It have to be filled by the model downloadable from the websites cited in the file "remove_children.py".
+In order to balance the real and fake datasets, we removed the children in the real dataset (because there are no children in the fake one) using the code available [here](https://www.thepythoncode.com/article/predict-age-using-opencv/).
+The `weights` folder is empty. It have to be filled by the model downloadable from the websites cited in the file `remove_children.py`.
