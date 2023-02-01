@@ -1,7 +1,27 @@
-# RealFaces_w_StableDiffusion
-Git Repo with code and Dataset of the paper **"On the use of Stable Diffusion for creating realistic faces: from generation to detection"**.
+# On the use of Stable Diffusion for creating realistic faces: from generation to detection
 
 This Repo contains the code used to generate the fake Dataset proposed in the paper and the code used for the overall analysis. The other datasets cited and linked are **NOT** proposed by us and the credits go to the original creators.
+
+## Abstract
+The mass adoption of diffusion models has shown that artificial intelligence (AI) systems can be used to easily
+generate realistic images. The spread of these technologies paves
+the way to previously unimaginable creative uses while also
+raising the possibility of malicious applications. In this work,
+we propose a critical analysis of the overall pipeline, i.e., from
+creating realistic human faces with Stable Diffusion v1.5
+to recognizing fake ones. We first propose an analysis of the
+prompts that allow the generation of extremely realistic faces
+with a human-in-the-loop approach. Our objective is to identify
+the text prompts that drive the image generation process to
+obtain realistic photos that resemble everyday portraits captured
+with any camera. Next, we study how complex it is to recognize
+these fake contents for both AI-based models and non-expert
+humans. We conclude that similar to other deepfake creation
+techniques, despite some limitations in generalization across
+different datasets, it is possible to use AI to recognize these
+contents more accurately than non-expert humans would.
+
+[[Paper]](#references)
 
 ## Dataset
 | Real (FFHQ)   | Stable Diffusion (ours) | GAN    | GAN2   | GAN3  |
@@ -43,3 +63,9 @@ To run the 5_classes_classifier one has to download the StyleGAN datasets from t
 * [gan3](datasets/gan3)
  
 and run the [split_5classes_dataset.py](split_5classes_dataset.py) file.
+
+## Authors
+[Lorenzo Papa](https://github.com/lorenzopapa5), [Lorenzo Faiella](https://github.com/FiscalTax), [Luca Corvitto](https://github.com/LucaCorvitto), [Luca Maiano](https://github.com/lucamaiano), [Irene Amerini]().
+
+## References
+[1] Lorenzo Papa, Lorenzo Faiella, Luca Corvitto, Luca Maiano, Irene Amerini. *On the use of Stable Diffusion for creating realistic faces: from generation to detection*
