@@ -38,7 +38,7 @@ The other datasets used in this project for detection and classification purpose
 
 ## How to run the code
 ### Fake Images Generation
-To generate the images we used [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) from [HuggingFace](https://huggingface.co/). The code is ready to run, since the license of the model does not need to be explicitly accepted through the UI anymore.
+To generate the images we used [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) from [HuggingFace](https://huggingface.co/). The code ([`main.py`](main.py)) is ready to run, since the license of the model does not need to be explicitly accepted through the UI anymore.
 
 ### Binary Classification
 #### Fake Dataset
