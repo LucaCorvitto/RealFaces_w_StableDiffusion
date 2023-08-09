@@ -81,5 +81,5 @@ and run the [`split_5classes_dataset.py`](split_5classes_dataset.py) file.
 ## Authors
 [Lorenzo Papa](https://github.com/lorenzopapa5), [Lorenzo Faiella](https://github.com/FiscalTax), [Luca Corvitto](https://github.com/LucaCorvitto), [Luca Maiano](https://github.com/lucamaiano), [Irene Amerini](https://github.com/ireneamerini).
 
-## References
-[1] Lorenzo Papa, Lorenzo Faiella, Luca Corvitto, Luca Maiano, Irene Amerini. *On the use of Stable Diffusion for creating realistic faces: from generation to detection*
+## Cite us
+L. Papa, L. Faiella, L. Corvitto, L. Maiano and I. Amerini, "On the use of Stable Diffusion for creating realistic faces: from generation to detection," 2023 11th International Workshop on Biometrics and Forensics (IWBF), Barcelona, Spain, 2023, pp. 1-6, doi: 10.1109/IWBF57495.2023.10156981.
