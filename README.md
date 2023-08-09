@@ -21,7 +21,7 @@ techniques, despite some limitations in generalization across
 different datasets, it is possible to use AI to recognize these
 contents more accurately than non-expert humans would.
 
-[[Paper]](#references)
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10156981)
 
 ## Dataset
 | Real (FFHQ)   | Stable Diffusion (ours) | GAN    | GAN2   | GAN3  |
