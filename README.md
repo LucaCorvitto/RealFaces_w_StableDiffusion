@@ -78,6 +78,9 @@ To run the 5_classes_classifier one has to download the StyleGAN datasets from t
  
 and run the [`split_5classes_dataset.py`](split_5classes_dataset.py) file.
 
+### Cross-validation
+To run the [`cross_validation.py`](cross_validation.py) file one needs to use the models trained in [`binary_classifier.py`](binary_classifier.py). The needed checkpoints are available at the [drive folder](https://drive.google.com/drive/folders/10-n9jY3USb5O_2bh4yUpo1IRPWxe1RIA). The file will try to reach these models through the path `./<model_name>/<transformation_type>_<compression_type>_best.pth`, so make sure to put them in the right folder.
+
 ## Authors
 [Lorenzo Papa](https://github.com/lorenzopapa5), [Lorenzo Faiella](https://github.com/FiscalTax), [Luca Corvitto](https://github.com/LucaCorvitto), [Luca Maiano](https://github.com/lucamaiano), [Irene Amerini](https://github.com/ireneamerini).
 
