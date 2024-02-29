@@ -194,6 +194,8 @@ def compress_create():
             for name in name_list:
                 image_name = os.path.splitext(name)[0]
                 for quality in [70, 90, 100]:
+                    if ".png" not in name: # avoid opening non-image files and compressing non-png images
+                        continue
                     img = Image.open(os.path.join(path, name))
                     img.save(f"datasets/jpg{quality}_images/{dir}/{folder}/" + image_name + '-' + str(quality) + '.jpeg', "jpeg", optimize = True, quality=quality)
 
