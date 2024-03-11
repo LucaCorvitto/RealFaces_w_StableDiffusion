@@ -47,7 +47,7 @@ The other datasets used in this project for detection and classification purpose
 * [FFHQ dataset](https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq) composed by real faces images;
 * [StyleGAN dataset](https://iplab.dmi.unict.it/deepfakechallenge/training/1-STYLEGAN.zip) made available for the [Deepfake challenge](https://iplab.dmi.unict.it/deepfakechallenge/#[object%20Object]);
 * [StyleGAN2 dataset](https://www.kaggle.com/datasets/bwandowando/all-these-people-dont-exist) composed by the images generated from the famous website [This Person Does Not Exist](https://thispersondoesnotexist.com/);
-* [StyleGAN3 dataset](https://nvlabs-fi-cdn.nvidia.com/stylegan3/images/) made available directly from NVIDIA.
+* [StyleGAN3 dataset](https://nvlabs-fi-cdn.nvidia.com/stylegan3/images/stylegan3-r-ffhq-1024x1024/) made available directly from NVIDIA.
 
 
 ## How to run the code
